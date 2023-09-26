@@ -10,6 +10,7 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import { useState } from "react";
+import { FlagIconCO } from "./icons";
 
 export default function Navbar() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -43,6 +44,15 @@ export default function Navbar() {
         </Typography>
         {auth && (
           <div>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              color="inherit"
+            >
+              <FlagIconCO width={30} style={{ borderRadius: "50%" }} />
+            </IconButton>
             <IconButton
               size="large"
               aria-label="account of current user"
