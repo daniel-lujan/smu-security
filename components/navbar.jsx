@@ -78,8 +78,9 @@ export default function Navbar() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}>Profile</MenuItem>
-              <MenuItem onClick={handleClose}>My account</MenuItem>
+              <MenuItem onClick={handleClose}>Perfil</MenuItem>
+              <MenuItem onClick={handleClose}>Mi Cuenta</MenuItem>
+              <MenuItem onClick={handleClose}>Cerrar Sesión</MenuItem>
             </Menu>
           </div>
         )}
