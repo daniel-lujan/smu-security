@@ -2,6 +2,10 @@ import Navbar from "@components/navbar";
 import "./globals.css";
 import Sidebar from "@components/sidebar";
 import { Box, CssBaseline, Toolbar } from "@mui/material";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 export const metadata = {
   title: "SMU Security",
